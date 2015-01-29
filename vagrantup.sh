@@ -11,7 +11,6 @@ sudo tar -xvzf node-v0.8.23-linux-x86.tar.gz --strip=1
 rm -f node-v0.8.23-linux-x86.tar.gz
 curl https://install.meteor.com | sudo sh
 sudo npm install -g meteorite
-
 git config --global push.default simple
 git config --global alias.st status
 git config --global alias.co checkout
