@@ -3,11 +3,6 @@
 Just a "quick" meteor test project.
 
 Ok so I _think_ the setup procedure is now:
+* Install Meteor for Windows (currently only a preview version, but should be good enough): https://github.com/meteor/meteor/wiki/Preview-of-Meteor-on-Windows
 * Git clone this repository
-* vagrant up
-* git config --global user.email "your@email.address"
-* git config --global user.name "Your Name"
-* Put your private & public keypair in ~/.ssh and chmod 0700 the private one
-* _Looks like the other git config steps, which should happen in vagrantup.sh, aren't happening automatically, so do them manually for now_
-
-_So far I think the lesson is if you're running Windows, don't use Meteor yet. Wait till they support it properly. (Longer version: Currently it requires using Vagrant, with some extra mystery magic setup steps, and even then you can only run git from within your VM, not from your host machine, so you have to configure a git setup all over again, and, and, and I JUST WANT TO MAKE MY APP GODDAMMIT.)_
+* cd into the directory and run meteor - or maybe you need to "meteor create" first and then replace with the git clone? Or maybe you need to git commit the .meteor files? Not quite sure.
